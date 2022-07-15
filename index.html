@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">welcome to form</h1>
+    <p id="description">this is to combleat the registration</p>
+    <div class="content">
+        <form id="survey-form">        
+            <label id="name-label">Name:<input placeholder="name" id="name" required type="text"></label>
+            <label id="email-label">Email:<input placeholder="email" id="email" required type="email"></label>
+            <label id="number-label">Number:<input placeholder="number" id="number" type="number" min="12" max="90"></label>
+            <label >choose:    
+                <select id="dropdown">
+                    <option >laptop</option>
+                    <option >super laptop</option>
+                </select>
+            </label>
+            <hr>
+            <div class="radio-dives">
+                <div>
+                <p class="a">choose the color of the laptop :</p>
+                </div>
+                <div>
+                    <input value="red" name="one" type="radio">
+                    <p>red</p>
+                </div>
+                <div>
+                    <input value="blue" name="one" type="radio">
+                    <p>blue</p> 
+                </div>
+                <div>
+                    <input value="black" name="one" type="radio">
+                    <p>black</p>
+                </div>
+            </div>
+            <div class="checkboxs-dives">
+                <div>
+                <p class="a">addionals:</p>
+                 </div>
+                <div>
+                    <input value="ram" type="checkbox" name="ram" id="ram">
+                    <p>add 16 ram</p>
+                </div>
+                <div>
+                    <input value="SSD" type="checkbox" name="SSD" id="SSD">
+                    <p>add 500GB SSD</p>
+                </div>
+            </div>
+            <hr>
+            <div class="a b">
+                <p class="addional-info-div">addional info:</p>
+                <textarea name="text" id="text"></textarea>
+            </div>
+            <button id="submit" type="submit" >submit</button>
+        </form>
+    </div>
+</body>
+</html>

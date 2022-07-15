@@ -1,0 +1,102 @@
+body{
+background-image:url(https://img.freepik.com/free-vector/gradient-top-view-laptop-background_52683-6291.jpg?w=2000);
+font-family:'Roboto Slab' ;
+font-weight: 400;
+color:#DFF6FF;
+border-radius:7px; 
+}
+#title ,#description{
+    font-family:'Oswald';
+    font-weight:500;
+    text-align: center;
+   
+}
+#title{
+    font-size: 60px;
+}
+#description{
+    font-size:35px;
+}
+label{
+    display: block;
+    margin:30px;
+    font-family:'Oswald';
+    font-weight:500;
+    font-size:30px;
+}
+
+.content{
+    width:70%;
+    margin: 0 auto; 
+    background:#4a86ae;
+    padding: 3rem 2rem;
+    border-radius: 7px;
+    opacity: 0.95;
+}
+input[type="text"],input[type="email"] ,input[type="number"],#survey-form select {
+    display: block;
+    width:80%;
+    height:2rem;
+    border-radius:7px; 
+    border:none;
+    box-shadow:0px 0px  6px 1px; 
+    background-color: #133952;
+    color: #fff;
+}
+#survey-form select{
+    width:50%;
+}
+div p{
+    display: inline;
+}
+.addional-info-div{
+    display: block;
+}
+#text{
+    width:60%;
+    height: 6rem;
+    border-radius: 7px;
+    box-shadow:0px 0px  6px 1px; 
+    background-color: #1e4159;
+    color: #fff;
+}
+hr{
+    
+    width: 60%;
+    position: relative;
+    top: 20px;
+    border: none;
+    height:4px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.a{
+    font-family:'Oswald';
+    font-weight:500;
+    font-size:30px;
+}
+div{
+    margin:20px;
+    font-size: 23px;
+}
+#submit{
+    margin:20px
+
+}
+.b{
+    margin:20px;
+    margin-left: 40px;
+}
+#submit{
+    display: block;
+    width:50%;
+    height: 2rem;
+    margin:0 auto;
+    color: #DFF6FF;
+    background-color: #1e4159;
+    border:none;
+    border-radius: 7px;
+    box-shadow:0px 0px  6px 1px; 
+
+}
